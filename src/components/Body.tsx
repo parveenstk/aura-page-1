@@ -5,6 +5,7 @@ import ExtraText from "./ExtraText";
 import Text from "./Text";
 import YellowBox from "./YellowBox";
 import Table from "./Table";
+import CommentBox from "./CommentBox";
 
 function Poster() {
     const [textContent, setTextContent] = useState<{ title: string | string[], style?: string; content: string | string[] }[]>([{
@@ -120,7 +121,7 @@ function Poster() {
                     <ExtraText data={text} />
                 ))}
                 <Table />
-                
+                <CommentBox />
             </div>
         </div>
     )

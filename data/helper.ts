@@ -156,6 +156,30 @@ export const contentData = [
     "<i>and your peace of mind...</i>",
     "worth it?",
     "Here's how Aura makes it as easy",
-    "as 1-2-3:"
-  ]
-  
+    "<p class='mb-6'>as 1-2-3:</p>"
+]
+
+export const userComments = [
+    [
+        {
+            img: "/images/chooseplan.png",
+            text: {
+                heading: "1. Gives you options",
+                content: ["Pick the plan that meets your needs.", "Then log in with 2-factor authentication."]
+            }
+        }
+    ],
+
+]
+
+export const userComments2 = [
+    {
+        img: "/images/chooseplan.png",
+        text: {
+            heading: "1. Gives you options",
+            content: ["Pick the plan that meets your needs.", "Then log in with 2-factor authentication."]
+        }
+    },
+    { img: "/images/accounts.png", text: { heading: "2. Links your accounts", content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc." } },
+    { img: "/images/work.png", text: { heading: "3. Starts monitoring", content: "Aura goes to work monitoring your identity watchlist and other credit-related alerts." } }
+]
