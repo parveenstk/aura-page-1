@@ -160,19 +160,6 @@ export const contentData = [
 ]
 
 export const userComments = [
-    [
-        {
-            img: "/images/chooseplan.png",
-            text: {
-                heading: "1. Gives you options",
-                content: ["Pick the plan that meets your needs.", "Then log in with 2-factor authentication."]
-            }
-        }
-    ],
-
-]
-
-export const userComments2 = [
     {
         img: "/images/chooseplan.png",
         text: {
@@ -180,6 +167,171 @@ export const userComments2 = [
             content: ["Pick the plan that meets your needs.", "Then log in with 2-factor authentication."]
         }
     },
-    { img: "/images/accounts.png", text: { heading: "2. Links your accounts", content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc." } },
+    { img: "./images/accounts.png", text: { heading: "2. Links your accounts", content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc." } },
     { img: "/images/work.png", text: { heading: "3. Starts monitoring", content: "Aura goes to work monitoring your identity watchlist and other credit-related alerts." } }
+]
+
+export const GauranteeBox = [
+    "That’s it!",
+    "So why not start today?",
+    "Try risk-free with our 60-day money-back guarantee.",
+    "24/7 customer support included with all plans."
+]
+
+export const userReviwsData = [
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "CoolGirl",
+                content: "",
+            }
+        },
+        right: {
+            text: {
+                heading: "Great company",
+                content: '"This company is great for the price. They keep me updated on recent transactions, my credit reports, removing dark web activity and more. You also speak with real people, lololol, who are friendly. Would recommend this company for your internet security needs."',
+                star: "★★★★★"
+            }
+        },
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "Ami Pagana",
+                content: "",
+            }
+        },
+        right: {
+            text: {
+                heading: "Aura agent was extremely helpful and....",
+                content: '"Juanita was extremely helpful and knowledgeable. She guided me through several calls to creditors that had either issued me."',
+                star: "★★★★★"
+            }
+        },
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "Stephen Basile",
+                content: "",
+            }
+        },
+        right: {
+            text: {
+                heading: "Aura is Awesome",
+                content: '"After being a victim of identity theft when my social security card got "lost" in the mail, my credit was ruined."',
+                star: "★★★★★"
+            }
+        },
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "Demetrius Moultrie",
+                content: "",
+            }
+        },
+        right: {
+            text: {
+                heading: "Made my life a lot easier and secure.",
+                content: '"Made my life a lot easier with 24hr protection. I feel safe with Aura watching over my identity and my electronic devices.."',
+                star: "★★★★★"
+            }
+        },
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "Maurice Leistman",
+                content: ""
+            }
+        },
+        right: {
+            text: {
+                heading: "Best product I've used",
+                content: `"I've used this product for a couple of years now and have not had any problems. I have on both of my devices never a problem. a little costly but it's a lot better than the alternative. I've used a few different ones, but this suits me the best."`,
+            }
+        }
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "David Arnold",
+                content: ""
+            }
+        },
+        right: {
+            text: {
+                heading: "21 century security",
+                content: '"Your service has been great and comforting during my short time as a Aura customer."',
+            }
+        }
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "",
+                content: ""
+            }
+        },
+        right: {
+            text: {
+                heading: "",
+                content: "",
+            }
+        }
+    },
+
+    {
+        left: {
+            img: {
+                path: "",
+                style: ""
+            },
+            text: {
+                heading: "",
+                content: ""
+            }
+        },
+        right: {
+            text: {
+                heading: "",
+                content: "",
+            }
+        }
+    }
 ]

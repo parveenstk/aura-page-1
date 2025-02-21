@@ -1,14 +1,19 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { boxData, data } from "../../data/helper";
+import CommentBox from "./CommentBox";
 import ExtraText from "./ExtraText";
+import Table from "./Table";
 import Text from "./Text";
 import YellowBox from "./YellowBox";
-import Table from "./Table";
-import CommentBox from "./CommentBox";
+import GuuranteeBox from "./GuaranteeBox";
+import GuaranteeBox from "./GuaranteeBox";
+import UserReviews from "./UserReviews";
 
-function Poster() {
-    const [textContent, setTextContent] = useState<{ title: string | string[], style?: string; content: string | string[] }[]>([{
+interface TextContent { title: string | string[], style?: string; content: string | string[] }
+
+function Body() {
+    const [textContent, setTextContent] = useState<TextContent[]>([{
         title: '',
         style: '',
         content: ''
@@ -117,14 +122,16 @@ function Poster() {
                         <Text content={data.para9} />
                     </div>
                 </div>
-                {Object.values(textContent).map(text => (
-                    <ExtraText data={text} />
+                {Object.values(textContent).map((text, index) => (
+                    <ExtraText key={index} data={text} />
                 ))}
+            </div>
                 <Table />
                 <CommentBox />
-            </div>
+                <GuaranteeBox className="py-4" />
+                <UserReviews />
         </div>
     )
 }
 
-export default Poster
+export default Body
