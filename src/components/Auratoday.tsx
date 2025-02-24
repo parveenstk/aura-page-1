@@ -1,13 +1,16 @@
 function Auratoday() {
     return (
-        <div className="bg-[#ffeead] p-[20px] h-fit">
-            <img src="./images/8.jpg" alt="box-image" className="h-44" />
+        <div className="bg-[#ffeead] p-[20px] h-fit rounded-lg border border-yellow-300 shadow-md">
+            
+                <img src="./images/aura.png" alt="box-image" className="w-39 mx-auto mb-6" />
+            
+
             <div className="flex justify-center items-center flex-col">
-                <h1 className="text-3xl font-semibold mb-6">Get Aura Today</h1>
-                <div className="flex justify-center items-center flex-col text-xl">
+                <h1 className="text-3xl font-semibold mb-2">Get Aura Today</h1>
+                <div className="flex justify-center items-center flex-col text-xl leading-6.5">
                     <p>Don't be the next casulty of evil</p>
                     <p>scammers. Safeguard your</p>
-                    <p>personal and financial</p>
+                    <p>personal and financial</p>   
                     <p>information today with Aura</p>
                     <p>Identity Theft Protection</p>
                 </div>

@@ -1,7 +1,8 @@
 {
     "heading1": {
         "title": "So How Can You Protect Yourself?",
-        "style": "italic bg-[#fff643]",
+        "style": "italic bg-[#fff643] mx-auto sm:mx-0",
+        "text": "text-2xl", 
         "content": [
             "Face it, identity theft sucks.",
             "From the financial losses...",
@@ -16,9 +17,9 @@
     },
     "heading2": {
         "title": "That's Why There's Aura",
-        "style": "italic",
+        "style": "mx-auto sm:mx-0 italic",
         "content": [
-            "Aura Identity Theft Protection",
+            "<a href='https://buy.aura.com/best-fraud-protection' style='font-weight: 700; text-decoration: underline; color:blue; font-size:25px'>Aura Identity Theft Protection</a>",
             "is the best and easiest way to protect yourself...",
             "Safeguarding your personal and financial info…",
             "By providing 24/7/365 monitoring",
@@ -35,7 +36,7 @@
             "Better Than Anyone",
             "Else in the Industry"
         ],
-        "style": "text-5xl",
+        "style": "",
         "content": [
             "Every 31 seconds, an American is a victim of identity theft.",
             "That means...",
@@ -48,19 +49,21 @@
     },
     "heading4": {
         "title": "All-in-One Protection",
+        "style": "mx-auto sm:mx-0",
         "content": [
             "Aura provides a comprehensive digital security solution that includes:",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>Identity theft protection</li></ul>",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>$1M Identity theft insurance</li></ul>",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>3-bureau credit monitoring</li></ul>",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>Antivirus software</li></ul>",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>VPN services</li></ul>",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>Password management</li></ul>",
-            "<ul><li style='list-style-type: disc; margin-left: 1.9rem;'>And much more...</li></ul>"
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>Identity theft protection</li></ul>",
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>$1M Identity theft insurance</li></ul>",
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>3-bureau credit monitoring</li></ul>",
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>Antivirus software</li></ul>",
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>VPN services</li></ul>",
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>Password management</li></ul>",
+            "<ul style='display: inline-block;'><li style='list-style-type: disc; margin-left: 1.9rem;'>And much more...</li></ul>"
         ]
     },
     "heading5": {
         "title": "Fastest Fraud Alerts",
+        "style": "mx-auto sm:mx-0",
         "content": [
             "Up to <b>250x</b> the industry standard.",
             "With direct connections <br> to all 3 major credit bureaus...",
@@ -71,6 +74,7 @@
     },
     "heading6": {
         "title": "Superior Family Plan",
+        "style": "mx-auto sm:mx-0",
         "content": [
             "They cover up to 5 adults and all your kids...",
             "Providing features like:",
@@ -109,6 +113,7 @@
     },
     "heading9": {
         "title": "Highly Rated Service",
+        "style": "mx-auto sm:mx-0",
         "content": [
             "Forbes, TechRadar, USNews.",
             "They're among the many who call Aura the",

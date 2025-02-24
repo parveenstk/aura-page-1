@@ -9,7 +9,7 @@ export const data = {
         "Imagine the horror of waking up...",
         "Everything you've earned and saved...",
         "And finding all your accounts at",
-        "<span class='font-bold text-red-500'>$0.00...</span>",
+        "<span class='font-bold text-red-500 text-3xl sm:text-xl'>$0.00...</span>",
         "Vanished with the click of a button...",
         "Thanks to scumbag scammers.",
         "How could you recover?",
@@ -38,7 +38,11 @@ export const data = {
         "<p class='text-[1.75rem] font-bold mb-2'>4 - Invasion of Privacy</p>",
         "When cyberpunks target good, everyday people like you…",
         "They get access to your:",
-        "",
+        "<ul><li class='list-disc ml-9'>Email</li></ul>",
+        "<ul><li class='list-disc ml-9'>Social Media</li></ul>",
+        "<ul><li class='list-disc ml-9'>Credit cards</li></ul>",
+        "<ul><li class='list-disc ml-9'>Subscriptions</li></ul>",
+        "<ul><li class='list-disc ml-9'>Etc.</li></ul>",
         "And leave you at their mercy of misusing your personal data...",
 
     ],
@@ -65,10 +69,12 @@ export const data = {
     para7: [
         "<p class='text-[1.75rem] font-bold mb-2'>7 - Tax Fraud</p>",
         "If wicked fraudsters get your data...",
-        "It's very easy to file false tax returns in your <br> name…",
-        "Getting “refunds” or other types of money.",
+        "It's a piece of cake to file tax returns",
+        "in your name…",
+        "And use those false papers",
+        "to get “refunds” or other types of money.",
         "This makes you a target for the IRS.",
-        "And <b> no one</b> wants that...",
+        "A place <strong>no one</strong> wants to be..."
     ],
     para8: [
         "<p class='text-[1.75rem] font-bold mb-2'>8 - “Hybrid” Identity Theft</p>",
@@ -96,7 +102,7 @@ export const boxData = {
     ],
 
     box2: [
-        "51% of credit cardholders <br> have been defrauded",
+        "<strong>51%</strong> of credit cardholders <br> have been defrauded",
         "<p class='text-3xl font-bold'>2 or more times</p>"
     ],
 
@@ -304,14 +310,14 @@ export const userReviwsData = [
                 style: ""
             },
             text: {
-                heading: "",
+                heading: "Gary D.",
                 content: ""
             }
         },
         right: {
             text: {
-                heading: "",
-                content: "",
+                heading: "Thanks Aura for making me feel safe...",
+                content: `"Thanks Aura for making me feel safe while working on my computer. I also appreciate the reports detailing what has been going on."`,
             }
         }
     },
@@ -323,15 +329,98 @@ export const userReviwsData = [
                 style: ""
             },
             text: {
-                heading: "",
+                heading: "Brooke McEntee",
                 content: ""
             }
         },
         right: {
             text: {
-                heading: "",
-                content: "",
+                heading: "Excellent Customer Support",
+                content: `"I contacted Aura's support team to help me resolve an issue and they were extremely patient and helpful. I appreciate the care... Read More"`,
             }
         }
+    },
+
+    {
+        left: {
+            img: {
+                path: "./images/Scammer.jpg",
+                style: ""
+            },
+            text: {
+                heading: "Scammer Payback",
+                content: "YouTube star"
+            }
+        },
+        right: {
+            text: {
+                heading: "",
+                content: `"It's very powerful to have the information and know-how to protect yourself. Aura is foundational to protecting your identity."`,
+            }
+        }
+    },
+
+    {
+        left: {
+            img: {
+                path: "./images/Heavy.jpg",
+                style: ""
+            },
+            text: {
+                heading: "Heavy D Sparks",
+                content: "Social media star"
+            }
+        },
+        right: {
+            text: {
+                heading: "",
+                content: `“Aura is way easier and more effective than anything else I've found. It really has every single feature that I could possibly want for identity protection and just overall privacy."`,
+            }
+        }
+    },
+]
+
+export const links = [
+    "./images/c-1.jpg",
+    "./images/c-2.jpg",
+    "./images/c-3.jpg",
+    "./images/c-4.jpg",
+]
+
+export const faq = [
+    {
+        heading: "What is identity theft?",
+        answer: "When a fraudster steals your personal data (name, address, phone number, social security number, credit card number, passport number, etc.) to commit crimes in your name. Identity thieves have a singular goal: steal your personally identifiable information (PII) and use it to get a payday."
+    },
+
+    {
+        heading: "How does identity theft happen?",
+        answer: ["While there are many ways, here are 4 of the most common:",
+            `"‍<span class='font-semibold underline'>Data Breaches</span> - scammers hack a company’s database or get stolen information from the Dark Web. Stolen data includes any personal info you've saved on a website, from passwords and credit card details to Social Security numbers."`,
+            `"<span class='font-semibold underline'>Viruses & Malware</span> - If you ever visited an unknown website, clicked on a strange link, or connected an unfamiliar USB into your device, you may be at risk of accidentally downloading harmful software."`,
+            `"<span class='font-semibold underline'>Phishing Attacks</span> - Commonly delivered by email, text message, and DMs on social media from people you don't recognize. They’ll want you to “confirm your identity” or "prove it's really you" by asking you to enter your username and password. Phishing attacks also target kids on social media and online gaming forums."`,
+            "<span class='font-semibold underline >Physical Theft</span> - A stolen or lost driver’s license, Social Security card, or even your physical mail can be used to commit ID theft, such as your bank account number.",
+        ]
+    },
+
+    {
+        heading: "What is White Glove Fraud Resolution?",
+        answer: "It takes the guesswork out of resolving the situation on your own. It removes the stress of recovering your identity and assets if you’re a victim of identity theft or financial fraud. Your White Glove agent will work with you to craft a plan to help prevent and recover existing losses or damages while navigating credit bureaus and federal institutions."
+    },
+
+    {
+        heading: "How does the 60 day money-back guarantee work?",
+        answer: "Your satisfaction with Aura products and services is their top priority. That’s why they offer a 60 day money-back guarantee for all annual membership plans. To cancel and request a refund, simply call Customer Support within 60 days of enrollment and you’ll get a full refund of your annual membership cost."
+    },
+
+    {
+        heading: "What does Identity Theft Insurance cover?",
+        answer: ["All Aura plans include a $1M Identity Theft Insurance shield. This provides coverage for eligible losses after a stolen identity event, including:",
+            "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Aggregate Limit of Insurance: $1,000,000 per policy period</li></ul>",
+            "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Lost Wages: $2,000 per week, for 5 weeks maximum</li></ul>",
+            "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Travel Expenses: $1,000 per policy period</li></ul>",
+            "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Certified Public Accountant Costs: $1,000 per policy period</li></ul>",
+
+        ]
     }
 ]

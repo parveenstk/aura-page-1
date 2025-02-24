@@ -4,7 +4,7 @@ function Text({ content, className, margin = true, innerClassName }: { content: 
             {Array.isArray(content) && content.length ? (
                 content.map((text, index) => (
                     <div key={index}>
-                        <p dangerouslySetInnerHTML={{ __html: text }} className={`text-xl ${margin ? 'mb-2' : ''} ${innerClassName}`}></p>
+                        <p dangerouslySetInnerHTML={{ __html: text }} className={`text-xl ${margin ? 'sm:mb-2' : ''} ${innerClassName}`}></p>
                     </div>
 
                 )))

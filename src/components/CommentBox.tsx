@@ -9,6 +9,7 @@ function CommentBox() {
 
                     <div key={index}>
                         <h1 className="text-[1.8rem] font-semibold">{text.heading}</h1>
+                        
                         {Array.isArray(text.content) && text.content.length > 0 ?
                             text.content.map((data, index) => (
                                 <p key={index} className="text-xl">{data}</p>

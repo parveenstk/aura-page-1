@@ -6,9 +6,9 @@ import ExtraText from "./ExtraText";
 import Table from "./Table";
 import Text from "./Text";
 import YellowBox from "./YellowBox";
-import GuuranteeBox from "./GuaranteeBox";
 import GuaranteeBox from "./GuaranteeBox";
 import UserReviews from "./UserReviews";
+import GuaranteeTag from "./GuaranteeTag";
 
 interface TextContent { title: string | string[], style?: string; content: string | string[] }
 
@@ -23,7 +23,7 @@ function Body() {
     }, [])
 
     return (
-        <div>
+        <div className="text-center sm:text-start">
             <div className="flex justify-center gap-6">
                 <div className="">
                     <img src="./images/0.jpg" alt="picutre-1" className="object-cover" />
@@ -31,25 +31,26 @@ function Body() {
                 </div>
             </div>
             <div>
-                <div className="mt-8 mb-20 text-center sm:text-start">
+                <div className="mt-8 sm:mb-20 mb-6 text-center sm:text-start">
                     <Text content={data.para0} />
                 </div>
+
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/1.jpg" alt="poster-1" className="h-56" />
-                    <div className="">
+                    <img src="/images/1.jpg" alt="poster-1" className="sm:w-1/2 h-64" />
+                    <div className="sm:w-1/2">
                         <Text content={data.para1} />
                     </div>
                 </div>
-                <div className="w-full grid sm:block place-content-center">
+                <div className="w-full grid sm:block place-content-center ">
                     <YellowBox content={boxData.box1} />
                 </div>
 
 
-                <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <div className="">
+                <div className="flex-col-reverse sm:flex-row flex gap-6 text-center md:text-start">
+                    <div className="sm:w-1/2">
                         <Text content={data.para2} />
                     </div>
-                    <img src="/images/2.jpg" alt="poster-1" className="h-56" />
+                    <img src="/images/2.jpg" alt="poster-2" className="sm:w-1/2 h-64" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box2} />
@@ -57,8 +58,8 @@ function Body() {
 
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/3.jpg" alt="poster-1" className="h-56" />
-                    <div className="">
+                    <img src="/images/3.jpg" alt="poster-3" className="sm:w-1/2 h-64" />
+                    <div className="sm:w-1/2">
                         <Text content={data.para3} />
                     </div>
                 </div>
@@ -66,19 +67,19 @@ function Body() {
                     <YellowBox content={boxData.box3} />
                 </div>
 
-                <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <div className="">
+                <div className="flex-col-reverse sm:flex-row flex gap-6 text-center md:text-start">
+                    <div className="sm:w-1/2">
                         <Text content={data.para4} />
                     </div>
-                    <img src="/images/4.jpg" alt="poster-1" className="h-56" />
+                    <img src="/images/4.jpg" alt="poster-4" className="sm:w-1/2 h-64" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box4} />
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/5.jpg" alt="poster-1" className="h-56" />
-                    <div className="">
+                    <img src="/images/5.jpg" alt="poster-5" className="sm:w-1/2 h-64" />
+                    <div className="sm:w-1/2">
                         <Text content={data.para5} />
                     </div>
                 </div>
@@ -86,19 +87,19 @@ function Body() {
                     <YellowBox content={boxData.box5} />
                 </div>
 
-                <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <div className="">
+                <div className="flex-col-reverse sm:flex-row flex gap-6 text-center md:text-start">
+                    <div className="sm:w-1/2">
                         <Text content={data.para6} />
                     </div>
-                    <img src="/images/6.jpg" alt="poster-1" className="h-80" />
+                    <img src="/images/6.jpg" alt="poster-6" className="sm:w-1/2 h-80" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box6} />
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/7.jpg" alt="poster-1" className="h-80" />
-                    <div className="">
+                    <img src="/images/7.jpg" alt="poster-7" className="sm:w-1/2 h-90" />
+                    <div className="sm:w-1/2">
                         <Text content={data.para7} />
                     </div>
                 </div>
@@ -106,30 +107,34 @@ function Body() {
                     <YellowBox content={boxData.box7} />
                 </div>
 
-                <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <div>
+                <div className="flex-col-reverse sm:flex-row flex gap-6 text-center md:text-start">
+                    <div className="sm:w-1/2">
                         <Text content={data.para8} />
                     </div>
-                    <img src="/images/8.jpg" alt="poster-1" className="h-56" />
+                    <img src="/images/8.jpg" alt="poster-8" className="sm:w-1/2 h-64" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box8} />
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start mb-16">
-                    <img src="/images/9.jpg" alt="poster-1" className="h-80" />
-                    <div className="">
+                    <img src="/images/9.jpg" alt="poster-9" className="sm:w-1/2 h-100" />
+                    <div className="sm:w-1/2">
                         <Text content={data.para9} />
                     </div>
                 </div>
                 {Object.values(textContent).map((text, index) => (
                     <ExtraText key={index} data={text} />
                 ))}
-            </div>
                 <Table />
                 <CommentBox />
                 <GuaranteeBox className="py-4" />
                 <UserReviews />
+                <GuaranteeBox className="py-4" />
+                <GuaranteeTag />
+                <GuaranteeBox className="py-4" />
+            </div>
+
         </div>
     )
 }
