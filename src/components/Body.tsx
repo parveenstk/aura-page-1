@@ -26,7 +26,7 @@ function Body() {
         <div className="text-center sm:text-start">
             <div className="flex justify-center gap-6">
                 <div className="">
-                    <img src="./images/0.webp" alt="picutre-1" className="object-cover" loading="eager" width={'850'} height={'480'} />
+                    <img src="./images/0.webp" alt="Poster-0" className="object-cover" loading="eager" width={'850'} height={'480'} />
                     <p className="bg-zinc-200 text-[12px] md:text-lg p-2 text-center block-inline">"It ruined my life and took me forever to recover. Never thought it would happen to me..."</p>
                 </div>
             </div>
