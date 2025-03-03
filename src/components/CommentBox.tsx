@@ -4,7 +4,7 @@ function CommentBox() {
     return (
         <div>
             {userComments.map(({ text, img }, index) => (
-                <div className="flex gap-4 items-center bg-[#efefef] p-8 border border-gray-300 rounded-lg mb-4" key={index}>
+                <div className="flex flex-col sm:flex sm:flex-row sm:gap-4 items-center bg-[#efefef] p-4 sm:p-8 border border-gray-300 rounded-lg mb-4" key={index}>
                     <img className="w-20" src={img} />
 
                     <div key={index}>

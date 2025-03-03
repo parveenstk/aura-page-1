@@ -16,7 +16,7 @@ function Body() {
     const [textContent, setTextContent] = useState<TextContent[]>([{
         title: '',
         style: '',
-        content: ''
+        content: '',
     }])
     useEffect(() => {
         axios('/data.json').then(result => setTextContent(result.data));
