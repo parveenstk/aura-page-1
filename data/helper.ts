@@ -399,7 +399,7 @@ export const faq = [
             `"‍<span class='font-semibold underline'>Data Breaches</span> - scammers hack a company’s database or get stolen information from the Dark Web. Stolen data includes any personal info you've saved on a website, from passwords and credit card details to Social Security numbers."`,
             `"<span class='font-semibold underline'>Viruses & Malware</span> - If you ever visited an unknown website, clicked on a strange link, or connected an unfamiliar USB into your device, you may be at risk of accidentally downloading harmful software."`,
             `"<span class='font-semibold underline'>Phishing Attacks</span> - Commonly delivered by email, text message, and DMs on social media from people you don't recognize. They’ll want you to “confirm your identity” or "prove it's really you" by asking you to enter your username and password. Phishing attacks also target kids on social media and online gaming forums."`,
-            "<span class='font-semibold underline >Physical Theft</span> - A stolen or lost driver’s license, Social Security card, or even your physical mail can be used to commit ID theft, such as your bank account number.",
+            `"<span class='font-semibold underline' >Physical Theft</span> - A stolen or lost driver’s license, Social Security card, or even your physical mail can be used to commit ID theft, such as your bank account number."`
         ]
     },
 

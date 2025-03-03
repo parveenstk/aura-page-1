@@ -9,7 +9,7 @@ function UserReviews() {
                 <div className="flex flex-col sm:flex sm:flex-row gap-6 items-center sm:py-8 sm:px-10 px-4 py-4 text-balance rounded-lg bg-[#ebf0fe] mb-6 border border-blue-200" key={index}>
                     {/* Left */}
                     <div className="w-auto flex flex-col items-center sm:flex">
-                        {data.left.img && (<img className="w-30" src={data.left.img.path} alt="user-Image" />)}
+                        {data.left.img.path && (<img className="w-30" src={data.left.img.path} alt="user-Image" />)}
                         <h1 className="text-xl text-center font-semibold w-[9rem]">{data.left.text.heading}</h1>
                         <p className="text-sm">{data.left.text.content}</p>
                     </div>
