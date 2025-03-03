@@ -26,7 +26,7 @@ function Body() {
         <div className="text-center sm:text-start">
             <div className="flex justify-center gap-6">
                 <div className="">
-                    <img src="./images/0.jpg" alt="picutre-1" className="object-cover" />
+                    <img src="./images/0.webp" alt="picutre-1" className="object-cover" loading="eager" width={'850'} height={'480'} />
                     <p className="bg-zinc-200 text-[12px] md:text-lg p-2 text-center block-inline">"It ruined my life and took me forever to recover. Never thought it would happen to me..."</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function Body() {
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/1.jpg" alt="poster-1" className="sm:w-1/2 h-64" />
+                    <img src="/images/1.webp" alt="poster-1" className="sm:w-1/2 h-64" />
                     <div className="sm:w-1/2">
                         <Text content={data.para1} />
                     </div>
@@ -50,7 +50,7 @@ function Body() {
                     <div className="sm:w-1/2">
                         <Text content={data.para2} />
                     </div>
-                    <img src="/images/2.jpg" alt="poster-2" className="sm:w-1/2 h-64" />
+                    <img src="/images/2.webp" alt="poster-2" className="sm:w-1/2 h-64" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box2} />
@@ -58,7 +58,7 @@ function Body() {
 
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/3.jpg" alt="poster-3" className="sm:w-1/2 h-64" />
+                    <img src="/images/3.webp" alt="poster-3" className="sm:w-1/2 h-64" />
                     <div className="sm:w-1/2">
                         <Text content={data.para3} />
                     </div>
@@ -71,14 +71,14 @@ function Body() {
                     <div className="sm:w-1/2">
                         <Text content={data.para4} />
                     </div>
-                    <img src="/images/4.jpg" alt="poster-4" className="sm:w-1/2 h-64" />
+                    <img src="/images/4.webp" alt="poster-4" className="sm:w-1/2 h-64" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box4} />
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/5.jpg" alt="poster-5" className="sm:w-1/2 h-64" />
+                    <img src="/images/5.webp" alt="poster-5" className="sm:w-1/2 h-64" />
                     <div className="sm:w-1/2">
                         <Text content={data.para5} />
                     </div>
@@ -91,14 +91,14 @@ function Body() {
                     <div className="sm:w-1/2">
                         <Text content={data.para6} />
                     </div>
-                    <img src="/images/6.jpg" alt="poster-6" className="sm:w-1/2 h-80" />
+                    <img src="/images/6.webp" alt="poster-6" className="sm:w-1/2 h-80" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box6} />
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/7.jpg" alt="poster-7" className="sm:w-1/2 h-90" />
+                    <img src="/images/7.webp" alt="poster-7" className="sm:w-1/2 h-90" />
                     <div className="sm:w-1/2">
                         <Text content={data.para7} />
                     </div>
@@ -111,14 +111,14 @@ function Body() {
                     <div className="sm:w-1/2">
                         <Text content={data.para8} />
                     </div>
-                    <img src="/images/8.jpg" alt="poster-8" className="sm:w-1/2 h-64" />
+                    <img src="/images/8.webp" alt="poster-8" className="sm:w-1/2 h-64" />
                 </div>
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box8} />
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start mb-16">
-                    <img src="/images/9.jpg" alt="poster-9" className="sm:w-1/2 h-100" />
+                    <img src="/images/9.webp" alt="poster-9" className="sm:w-1/2 h-100" />
                     <div className="sm:w-1/2">
                         <Text content={data.para9} />
                     </div>

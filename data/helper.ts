@@ -142,17 +142,17 @@ export const boxData = {
 }
 
 export const tableData = [
-    ["", { img: { path: "/images/aura.jpg", style: "w-[80px]" } }, { text: ["LifeLock", "Ultimate Plus"] }, { text: ["IdentityForce", "UltraSecure + Credit"] }],
-    ["Free Trials", { img: { path: "/images/fill-check.png", style: "w-[27px]" }, text: ["14-day free trial", "available."] }, { img: { path: "/images/fill-check-gray.png", style: "w-[27px]" }, text: "30 days free." }, { img: { path: "/images/unfill-check-gray.png", style: "w-[27px]" } }],
+    ["", { img: { path: "/images/aura.webp", style: "w-[80px]" } }, { text: ["LifeLock", "Ultimate Plus"] }, { text: ["IdentityForce", "UltraSecure + Credit"] }],
+    ["Free Trials", { img: { path: "/images/fill-check.webp", style: "w-[27px]" }, text: ["14-day free trial", "available."] }, { img: { path: "/images/fill-check-gray.webp", style: "w-[27px]" }, text: "30 days free." }, { img: { path: "/images/unfill-check-gray.webp", style: "w-[27px]" } }],
     ["Monthly Plan Cost (Individual)", "$15/month", "$34.99/month", "$34.90/month"],
     ["Annual plan cost (Individual)", "$12/month", "$19.99/month", "~$29.15/month"],
-    ["24/7 U.S.-Based Support", { img: { path: "/images/fill-check.png", style: "w-[27px]" } }, { img: { path: "/images/Tilde.png", style: "w-[27px]" } }, { img: { path: "/images/unfill-check-gray.png", style: "w-[27px]" } }],
+    ["24/7 U.S.-Based Support", { img: { path: "/images/fill-check.webp", style: "w-[27px]" } }, { img: { path: "/images/Tilde.webp", style: "w-[27px]" } }, { img: { path: "/images/unfill-check-gray.webp", style: "w-[27px]" } }],
     ["Clear Pricing", { text: ["Transparent pricing:", "no hidden renewal", "fees."] }, { text: ["Price increases by", "~42% after the", "first year.",] }, { text: ["Renewal pricing is", "based on subscription", "rates in effect at that", "time. 10"] }],
-    ["Identity Monitoring", { img: { path: "/images/fill-check.png", style: "w-[27px]" }, text: ["Identity Protection", "with Home and Auto", "Title monitoring.",] }, { img: { path: "/images/Tilde.png", style: "w-[27px]" }, text: ["No auto title", "monitoring."] }, { img: { path: "/images/Tilde.png", style: "w-[27px]" }, text: ["No home or auto title", "monitoring."] }],
-    ["Three-bureau Credit Monitoring", { img: { path: "/images/fill-check.png", style: "w-[27px]" }, text: ["Available across all", "plans."] }, { img: { path: "/images/fill-check-gray.png", style: "w-[27px]" } }, { img: { path: "/images/fill-check-gray.png", style: "w-[27px]" } }],
-    ["Online Safety Features", { img: { path: "/images/fill-check.png", style: "w-[27px]" }, text: ["VPN, AntiVirus,", "Password Manager,", "Anti-Tracking, Ad", "Blocker, and more."] }, { img: { path: "/images/unfill-check-gray.png", style: "w-[27px]" }, text: ["No auto title", "monitoring."] }, { img: { path: "/images/Tilde.png", style: "w-[27px]" }, text: ["No home or auto title", "monitoring."] }],
-    ["Family Plan With Parental Controls, Child ID Protection", { img: { path: "/images/fill-check.png", style: "w-[27px]" }, text: ["5 adults, unlimited", "kids plus Child ID", "Protection, Parental", "Controls, and Safe", "Gaming."] }, { img: { path: "/images/unfill-check-gray.png", style: "w-[27px]" }, text: ["2 adults, 5 kids.", "No parental", "controls."] }, { img: { path: "/images/Tilde.png", style: "w-[27px]" }, text: ["2 adults, unlimited kids.", "No parental controls."] }],
-    ["Social Media Monitoring", { img: { path: "/images/unfill-check-gray.png", style: "w-[27px]" } }, { img: { path: "/images/fill-check-gray.png", style: "w-[27px]" } }, { img: { path: "/images/Tilde.png", style: "w-[27px]" }, text: ["Dark Web social media", "monitoring only."] }],
+    ["Identity Monitoring", { img: { path: "/images/fill-check.webp", style: "w-[27px]" }, text: ["Identity Protection", "with Home and Auto", "Title monitoring.",] }, { img: { path: "/images/Tilde.webp", style: "w-[27px]" }, text: ["No auto title", "monitoring."] }, { img: { path: "/images/Tilde.webp", style: "w-[27px]" }, text: ["No home or auto title", "monitoring."] }],
+    ["Three-bureau Credit Monitoring", { img: { path: "/images/fill-check.webp", style: "w-[27px]" }, text: ["Available across all", "plans."] }, { img: { path: "/images/fill-check-gray.webp", style: "w-[27px]" } }, { img: { path: "/images/fill-check-gray.webp", style: "w-[27px]" } }],
+    ["Online Safety Features", { img: { path: "/images/fill-check.webp", style: "w-[27px]" }, text: ["VPN, AntiVirus,", "Password Manager,", "Anti-Tracking, Ad", "Blocker, and more."] }, { img: { path: "/images/unfill-check-gray.webp", style: "w-[27px]" }, text: ["No auto title", "monitoring."] }, { img: { path: "/images/Tilde.webp", style: "w-[27px]" }, text: ["No home or auto title", "monitoring."] }],
+    ["Family Plan With Parental Controls, Child ID Protection", { img: { path: "/images/fill-check.webp", style: "w-[27px]" }, text: ["5 adults, unlimited", "kids plus Child ID", "Protection, Parental", "Controls, and Safe", "Gaming."] }, { img: { path: "/images/unfill-check-gray.webp", style: "w-[27px]" }, text: ["2 adults, 5 kids.", "No parental", "controls."] }, { img: { path: "/images/Tilde.webp", style: "w-[27px]" }, text: ["2 adults, unlimited kids.", "No parental controls."] }],
+    ["Social Media Monitoring", { img: { path: "/images/unfill-check-gray.webp", style: "w-[27px]" } }, { img: { path: "/images/fill-check-gray.webp", style: "w-[27px]" } }, { img: { path: "/images/Tilde.webp", style: "w-[27px]" }, text: ["Dark Web social media", "monitoring only."] }],
 ];
 
 
@@ -167,14 +167,14 @@ export const contentData = [
 
 export const userComments = [
     {
-        img: "/images/chooseplan.png",
+        img: "/images/chooseplan.webp",
         text: {
             heading: "1. Gives you options",
             content: ["Pick the plan that meets your needs.", "Then log in with 2-factor authentication."]
         }
     },
-    { img: "./images/accounts.png", text: { heading: "2. Links your accounts", content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc." } },
-    { img: "/images/work.png", text: { heading: "3. Starts monitoring", content: "Aura goes to work monitoring your identity watchlist and other credit-related alerts." } }
+    { img: "./images/accounts.webp", text: { heading: "2. Links your accounts", content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc." } },
+    { img: "/images/work.webp", text: { heading: "3. Starts monitoring", content: "Aura goes to work monitoring your identity watchlist and other credit-related alerts." } }
 ]
 
 export const GauranteeBox = [
@@ -344,7 +344,7 @@ export const userReviwsData = [
     {
         left: {
             img: {
-                path: "./images/Scammer.jpg",
+                path: "./images/Scammer.webp",
                 style: ""
             },
             text: {
@@ -363,7 +363,7 @@ export const userReviwsData = [
     {
         left: {
             img: {
-                path: "./images/Heavy.jpg",
+                path: "./images/Heavy.webp",
                 style: ""
             },
             text: {
@@ -381,10 +381,10 @@ export const userReviwsData = [
 ]
 
 export const links = [
-    "./images/c-1.jpg",
-    "./images/c-2.jpg",
-    "./images/c-3.jpg",
-    "./images/c-4.jpg",
+    "./images/c-1.webp",
+    "./images/c-2.webp",
+    "./images/c-3.webp",
+    "./images/c-4.webp",
 ]
 
 export const faq = [

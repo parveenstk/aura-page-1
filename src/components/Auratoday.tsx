@@ -2,7 +2,7 @@ function Auratoday() {
     return (
         <div className="bg-[#ffeead] p-[20px] h-fit rounded-lg border w-98 border-yellow-300 shadow-md">
             
-                <img src="./images/aura.png" alt="box-image" className="w-39 mx-auto mb-6" />
+                <img src="./images/aura1.webp" alt="box-image" className="w-39 mx-auto mb-6" />
             
 
             <div className="flex justify-center items-center flex-col">
