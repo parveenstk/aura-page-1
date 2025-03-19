@@ -16,7 +16,7 @@ export default function IdentityTheftInfo() {
         <>
             {faq.map((data, index) => (
                 <div key={index} className="mb-2 sm:mb-4">
-                    <button className="rounded-t-lg w-full py-3 sm:text-2xl text-xl text-white font-bold bg-[#bd9e26] text-left pl-6 cursor-pointer"
+                    <button className="rounded-t-lg w-full py-3 sm:text-2xl text-xl text-[#ffffff] font-bold bg-[#9e7b1d] text-left pl-6 cursor-pointer"
                         onClick={() => handleToggle(index)}>
                         {data.heading}
                     </button>
