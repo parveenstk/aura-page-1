@@ -173,8 +173,20 @@ export const userComments = [
             content: ["Pick the plan that meets your needs.", "Then log in with 2-factor authentication."]
         }
     },
-    { img: "./images/accounts.webp", text: { heading: "2. Links your accounts", content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc." } },
-    { img: "/images/work.webp", text: { heading: "3. Starts monitoring", content: "Aura goes to work monitoring your identity watchlist and other credit-related alerts." } }
+    {
+        img: "./images/accounts.webp",
+        text: {
+            heading: "2. Links your accounts",
+            content: "Enables you to link your accounts quick and easy: banks, credit cards, investments, etc."
+        }
+    },
+    {
+        img: "/images/work.webp",
+        text: {
+            heading: "3. Starts monitoring",
+            content: "Aura goes to work monitoring your identity watchlist and other credit-related alerts."
+        }
+    }
 ]
 
 export const GauranteeBox = [
