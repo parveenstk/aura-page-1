@@ -36,7 +36,7 @@ function Body() {
                 </div>
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
-                    <img src="/images/1.webp" alt="poster-1" className="sm:w-1/2 h-64" loading="eager" height={'414'} width={'fit'}/>
+                    <img src="/images/1.webp" alt="poster-1" className="sm:w-1/2 h-64" loading="eager" height={'414'} width={'256'}/>
                     <div className="sm:w-1/2">
                         <Text content={data.para1} />
                     </div>
