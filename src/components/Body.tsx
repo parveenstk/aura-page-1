@@ -43,6 +43,7 @@ function Body() {
                 </div>
                 <div className="w-full grid sm:block place-content-center ">
                     <YellowBox content={boxData.box1} />
+                    <YellowBox content={boxData.box1} />
                 </div>
 
 
