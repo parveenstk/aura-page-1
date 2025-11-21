@@ -427,12 +427,12 @@ export const faq = [
 
     {
         heading: "What does Identity Theft Insurance cover?",
-        answer: ["All Aura plans include a $1M Identity Theft Insurance shield. This provides coverage for eligible losses after a stolen identity event, including:",
+        answer: [
+            "All Aura plans include a $1M Identity Theft Insurance shield. This provides coverage for eligible losses after a stolen identity event, including:",
             "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Aggregate Limit of Insurance: $1,000,000 per policy period</li></ul>",
             "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Lost Wages: $2,000 per week, for 5 weeks maximum</li></ul>",
             "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Travel Expenses: $1,000 per policy period</li></ul>",
             "<ul><li class='list-disc ml-10 leading-5 text-[18px]'>Certified Public Accountant Costs: $1,000 per policy period</li></ul>",
-
         ]
     }
 ]
