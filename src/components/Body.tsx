@@ -43,8 +43,8 @@ function Body() {
                 </div>
                 <div className="w-full grid sm:block place-content-center ">
                     <YellowBox content={boxData.box1} />
+                    <YellowBox content={boxData.box1} />
                 </div>
-
 
                 <div className="flex-col-reverse sm:flex-row flex gap-6 text-center md:text-start">
                     <div className="sm:w-1/2">
@@ -55,7 +55,6 @@ function Body() {
                 <div className="w-full grid sm:block place-content-center">
                     <YellowBox content={boxData.box2} />
                 </div>
-
 
                 <div className="flex-col sm:flex-row flex gap-6 text-center md:text-start">
                     <img src="/images/3.webp" alt="poster-3" className="sm:w-1/2 h-64" height={'442'} width={'fit'}/>
